@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "updated": "2026-10-28",
+  "studio": {
+    "name": "Sukoon Labs",
+    "website": "https://sukoonlabs.github.io"
+  },
+  "apps": [
+    {
+      "id": "one-line-draw",
+      "name": "One Line Draw",
+      "tagline": "Draw every line in one stroke. 1000+ relaxing puzzles, a new one every day.",
+      "category": "Puzzle",
+      "icon": "https://sukoonlabs.github.io/one-line-draw.png",
+      "status": "live",
+      "order": 1,
+      "ios": null,
+      "android": {
+        "package": "com.sukoonlabs.onelinedraw",
+        "url": "https://play.google.com/store/apps/details?id=com.sukoonlabs.onelinedraw"
+      }
+    },
+    {
+      "id": "elemental-fluffs",
+      "name": "Elemental Fluffs",
+      "tagline": "Drop, merge and fuse fluffy elements in a cozy glass jar.",
+      "category": "Puzzle",
+      "icon": null,
+      "status": "coming_soon",
+      "order": 2,
+      "ios": null,
+      "android": null
+    }
+  ]
+}
