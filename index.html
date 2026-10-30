@@ -27,10 +27,13 @@
   h2 { font: 600 30px/1.2 Fraunces, serif; color: var(--lagoon); margin: 0 0 18px; }
   section { padding: 40px 0; }
   .app { display: flex; gap: 20px; align-items: center; background: #fff; border-radius: 24px; padding: 20px; max-width: 560px; }
-  .app img { width: 96px; height: 96px; border-radius: 22px; border: 1px solid #D5E0DC; flex: none; }
+  .app > img { width: 96px; height: 96px; border-radius: 22px; border: 1px solid #D5E0DC; flex: none; }
   .app h3 { margin: 0; font-size: 19px; }
   .app p { margin: 4px 0 6px; color: var(--stone); font-size: 15px; }
   .app small { font-size: 14px; }
+  .play { display: inline-block; margin: 2px 0 4px; }
+  .play img { display: block; height: 64px; margin: -8px -10px; }
+  .trailer { display: block; width: 100%; max-width: 560px; aspect-ratio: 16 / 9; border: 0; border-radius: 24px; margin-top: 16px; background: #000; }
   footer { padding: 48px 0 64px; color: var(--stone); font-size: 14px; }
   @media (prefers-color-scheme: dark) {
     body { background: var(--night); color: var(--mist); }
@@ -59,10 +62,12 @@
       <img src="one-line-draw.png" alt="One Line Draw icon">
       <div>
         <h3>One Line Draw</h3>
-        <p>Draw every line in one stroke. Calm, clever puzzles. Coming soon to Google Play.</p>
+        <p>Draw every line in one stroke. 1000+ calm puzzles and a new one every day. Free, offline, in 7 languages.</p>
+        <a class="play" href="https://play.google.com/store/apps/details?id=com.sukoonlabs.onelinedraw"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play"></a><br>
         <small><a href="privacy">Privacy policy</a></small>
       </div>
     </div>
+    <video class="trailer" src="trailer.mp4" poster="trailer.jpg" controls playsinline preload="none" title="One Line Draw trailer"></video>
   </section>
 
   <section id="contact">
