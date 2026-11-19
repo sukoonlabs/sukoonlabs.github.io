@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-28",
+  "updated": "2026-11-20",
   "studio": {
     "name": "Sukoon Labs",
     "website": "https://sukoonlabs.github.io"
@@ -25,7 +25,7 @@
       "name": "Elemental Fluffs",
       "tagline": "Drop, merge and fuse fluffy elements in a cozy glass jar.",
       "category": "Puzzle",
-      "icon": null,
+      "icon": "https://sukoonlabs.github.io/elemental-fluffs.png",
       "status": "coming_soon",
       "order": 2,
       "ios": null,

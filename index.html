@@ -33,6 +33,7 @@
   .app small { font-size: 14px; }
   .play { display: inline-block; margin: 2px 0 4px; }
   .play img { display: block; height: 64px; margin: -8px -10px; }
+  .app + .app, .trailer + .app { margin-top: 20px; }
   .trailer { display: block; width: 100%; max-width: 560px; aspect-ratio: 16 / 9; border: 0; border-radius: 24px; margin-top: 16px; background: #000; }
   footer { padding: 48px 0 64px; color: var(--stone); font-size: 14px; }
   @media (prefers-color-scheme: dark) {
@@ -68,6 +69,14 @@
       </div>
     </div>
     <video class="trailer" src="trailer.mp4" poster="trailer.jpg" controls playsinline preload="none" title="One Line Draw trailer"></video>
+    <div class="app">
+      <img src="elemental-fluffs.png" alt="Elemental Fluffs icon">
+      <div>
+        <h3>Elemental Fluffs: Fusion Jar</h3>
+        <p>Drop, merge and fuse fluffy elements in a cozy glass jar. Coming soon to Google Play.</p>
+        <small><a href="elemental-fluffs/privacy">Privacy policy</a> · <a href="elemental-fluffs/terms">Terms of use</a> · <a href="elemental-fluffs/delete">Delete your data</a></small>
+      </div>
+    </div>
   </section>
 
   <section id="contact">
